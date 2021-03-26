@@ -16,7 +16,7 @@ for (const item of toDoList) {
 }
 
 // p6
-for (const item of toDoList) {
+for (const item of completedTodos) {
     const {todo, status} = item
     console.log(todo)
 }
