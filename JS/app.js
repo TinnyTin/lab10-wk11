@@ -9,8 +9,14 @@ toDoList = [
 completedTodos = []
 
 // p5
-for (const todo of toDoList) {
-    if (todo.status === "complete") {
-        completedTodos.push(todo)
+for (const item of toDoList) {
+    if (item.status === "complete") {
+        completedTodos.push(item)
     }
+}
+
+// p6
+for (const item of toDoList) {
+    const {todo, status} = item
+    console.log(todo)
 }
